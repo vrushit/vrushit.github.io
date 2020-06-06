@@ -5,6 +5,7 @@ html, body{
     font-family: 'Roboto Mono', monospace;
 }
 body{
+    font-family: 'Roboto Mono', monospace;
     background: linear-gradient(-45deg, #0C0E37, #031321 , #0f0f0f , #031321 );
     background-size: 400% 400%;
     animation: change 7s ease-in-out infinite;
