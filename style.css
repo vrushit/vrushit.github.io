@@ -9,23 +9,25 @@ body{
     background: linear-gradient(-45deg, #0C0E37, #031321 , #0f0f0f , #031321 );
     background-size: 400% 400%;
     animation: change 7s ease-in-out infinite;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nameWebsite{
-    top: 35%;
     color:#fff;
+    width: 100%;
+    height:100%;
     position: relative;
+    overflow: hidden;
 }
 
-h1{
+.nameWebsite h1{
     font-family: 'Roboto Mono', monospace;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 3px solid #fff;
     position: absolute;
-    top:50%;
+    top:33%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5rem 10rem;
@@ -44,6 +46,8 @@ h1{
     
 
 }
+
+
 
 .scroll-down{
 
@@ -80,10 +84,22 @@ h1{
     }
 }
 
+.padding{
+    padding-bottom: 2rem;
+}
+
+
+
+  .display-4{
+    font-size: 150%;
+  }
+
+
 /*---------------------NAVBAR STARTS-------------------------*/
 
 .navbar{
     padding: 0.8rem;
+    overflow: hidden;
 }
 
 .navbar-toggler{
@@ -189,16 +205,10 @@ a:hover span:nth-child(4)
   {
   
   
-      h1{
-          font-family: 'Roboto Mono', monospace;
+     .nameWebsite h1{
+          
           font-size: 18px;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          border: 3px solid #fff;
-          position: absolute;
-          top:50%;
-          left: 50%;
-          color: #fff;
+          top:35%;
           transform: translate(-50%, -50%);
           padding:3rem 3rem;
       }
@@ -223,3 +233,116 @@ a:hover span:nth-child(4)
 /*--------------------NAVBAR ENDS----------------------*/
 
 
+/*---------About Me------------------*/
+
+.aboutme{
+    width:100%;
+    height:100%;
+    font-family: 'Roboto Mono', monospace;
+    
+    /* height:90vh; */
+    overflow: hidden;
+    
+}
+
+.welcome{
+    padding-top:5%;
+     color: #fff;
+  }
+
+  .my-image{
+    float: left;
+  }
+
+.my-image img{
+    width:500px;
+    height:500px;
+    padding:20px;
+    animation: fadeInLeft 3s normal;
+}
+
+.aboutmeContent{
+    font-family: 'Roboto Mono', monospace;
+    padding-right:50px;
+    color:#fff;
+    text-align: justify;
+    font-size: 120%;
+    animation: fadeInRight 5s normal;
+
+}
+
+.aboutmeIcons{
+    float: left;
+    margin:30px;
+    font-size:48px;
+    color:#fff
+}
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+      transform: translateX(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+      transform: translateX(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 5em;
+    }
+}
+
+@keyframes blinkTextCussor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+.line {
+    width: 24em;
+      top: 50%;
+     
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(40) 1s 1 normal both,
+    blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+
+/*----------ABOUTME ENDS----------*/
