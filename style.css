@@ -254,8 +254,8 @@ a:hover span:nth-child(4)
 
 
 .my-image img{
-    width:450px;
-    height:450px;
+    width:500px;
+    height:500px;
     padding:20px;
 }
 
@@ -288,8 +288,8 @@ a:hover span:nth-child(4)
    
       
 .my-image img{
-    width:300px;
-    height:300px;
+    width:350px;
+    height:350px;
     padding:10px;
   
 }
@@ -312,7 +312,7 @@ a:hover span:nth-child(4)
 
 @media only screen and (max-width:500px)
 {
-
+    
     .aboutme{
  
         height:auto;
@@ -321,8 +321,8 @@ a:hover span:nth-child(4)
     }
 
     .my-image img{
-        width:250px;
-        height:250px;
+        width:300px;
+        height:300px;
       
         justify-content: center;
       
@@ -412,7 +412,7 @@ a:hover span:nth-child(4)
 }
 
 .anim-typewriter {
-    animation: typewriter 2s steps(40) 1s 1 normal both,
+    animation: typewriter 2s steps(40) 1s infinite normal both,
     blinkTextCussor 500ms steps(40) infinite normal;
 }
 
