@@ -412,7 +412,7 @@ a:hover span:nth-child(4)
 }
 
 .anim-typewriter {
-    animation: typewriter 2s steps(40) 1s infinite normal both,
+    animation: typewriter 2s steps(40) infinite normal both,
     blinkTextCussor 500ms steps(40) infinite normal;
 }
 
