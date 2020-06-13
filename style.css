@@ -50,7 +50,6 @@ body{
 
 
 .scroll-down{
-
     position: absolute;
     left: 50%;
     bottom:60px;
@@ -67,8 +66,8 @@ body{
     transform: translate(-50%, 0) rotate(45deg);
     animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 
-
 }
+
 
 @keyframes fade_move_down {
     0% {
@@ -239,10 +238,7 @@ a:hover span:nth-child(4)
     width:100%;
     height:100%;
     font-family: 'Roboto Mono', monospace;
-    
-    /* height:90vh; */
-    overflow: hidden;
-    
+
 }
 
 .welcome{
@@ -252,13 +248,15 @@ a:hover span:nth-child(4)
 
   .my-image{
     float: left;
+    animation: fadeInLeft 2s normal;
+
   }
 
+
 .my-image img{
-    width:500px;
-    height:500px;
+    width:450px;
+    height:450px;
     padding:20px;
-    animation: fadeInLeft 3s normal;
 }
 
 .aboutmeContent{
@@ -267,7 +265,7 @@ a:hover span:nth-child(4)
     color:#fff;
     text-align: justify;
     font-size: 120%;
-    animation: fadeInRight 5s normal;
+    animation: fadeInRight 2.5s normal;
 
 }
 
@@ -278,7 +276,81 @@ a:hover span:nth-child(4)
     color:#fff
 }
 
-@keyframes fadeInLeft {
+
+
+@media only screen and (max-width: 768px)
+{
+   
+
+    .welcome{
+        font-size:70%;
+      }
+   
+      
+.my-image img{
+    width:300px;
+    height:300px;
+    padding:10px;
+  
+}
+
+
+.aboutmeContent{
+    padding-right:50px;
+    font-size: 70%;
+}
+
+.aboutmeIcons{
+ 
+    margin:10px;
+    font-size:30px;
+   
+}
+   
+    
+}
+
+@media only screen and (max-width:500px)
+{
+
+    .aboutme{
+ 
+        height:auto;
+        overflow: hidden;
+    
+    }
+
+    .my-image img{
+        width:250px;
+        height:250px;
+      
+        justify-content: center;
+      
+    }
+    .aboutmeContent{
+        margin:20px 20px 20px 40px;
+        font-size: 70%;
+    }
+    .aboutmeIcons{
+ 
+        margin:15px;
+      
+       
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+    .aboutmeIcons{
+ 
+        margin:10px;
+      
+       
+    } 
+}
+
+
+/* @keyframes fadeInLeft {
     0% {
       opacity: 0;
       -webkit-transform: translateX(-20px);
@@ -308,7 +380,7 @@ a:hover span:nth-child(4)
       -ms-transform: translateX(0);
       transform: translateX(0);
     }
-  }
+  } */
 
   @keyframes typewriter {
     from {
@@ -343,6 +415,7 @@ a:hover span:nth-child(4)
     animation: typewriter 2s steps(40) 1s 1 normal both,
     blinkTextCussor 500ms steps(40) infinite normal;
 }
+
 
 
 /*----------ABOUTME ENDS----------*/

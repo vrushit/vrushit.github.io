@@ -6,6 +6,7 @@
     <title>
          Vrushit 
     </title>
+
     <link rel = "icon" href = "images/bitmoji.jpg" 
             type = "image/x-icon"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -17,6 +18,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
         </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -43,7 +49,7 @@
                     </li>
                     <li class="nav-link" >
                        
-                        <a href="#home">
+                        <a href="#aboutme">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -81,7 +87,9 @@
     </div>
 
     <div class="scroll-down"></div>
-    <div class="aboutme">
+
+    <!--Aboutme-->
+    <div class="aboutme" id="aboutme">
     <div class="container-fluid padding">
         <div class="row welcome">
             <div class="col-12">
@@ -94,16 +102,21 @@
     </div>
     <div class="container-fluid padding">
         <div class="row padding">
-            <div class="col-xs-12 col-sm-6 my-image">
-                <img src="./images/circle-cropped.png">
-            </div>
-            <div class="col-xs-12 col-sm-6 aboutmeContent">
+            <div class="col-xs-12 col-sm-6 wow my-image ">
+               
+                <!-- <img src="./images/circle-cropped.png" class="myimg"> -->
                 
-                    <div class="one">
+            
+                    <img src="./images/circle-cropped.png">
+            
+            </div>
+            <div class="col-xs-12 col-sm-6 wow aboutmeContent">
+               
+                    <div class="one wow ">
                         <p>
                            
                         Hi I'm Vrushit Bharucha.<br>
-                        I'm currently studiny Computer Science Engineering from Devang Patel Institute of Advance Technology and Research(CHARUSAT University). Currently in my 3rd year and rathering much knowledge on newer Technologies in the Domain of Web Devleopment(mainly JavaScript) and Machine Learning. Main Goal of Life to setup a strong Career in the Domain of Web Development and Machine Learning Together so to provide the WORLD with a better SOLUTION for PROBLEMS.
+                        I'm currently studying Computer Science Engineering from Devang Patel Institute of Advance Technology and Research(CHARUSAT University). Currently in my 3rd year and rathering much knowledge on newer Technologies in the Domain of Web Devleopment(mainly JavaScript) and Machine Learning. Main Goal of Life is to setup a strong Career in the Domain of Web Development and Machine Learning Together so to provide the WORLD with a better SOLUTION for PROBLEMS.
                     </p>
                     </div>
                     <div>
@@ -114,12 +127,18 @@
                         <i class="fa fa-stack-overflow aboutmeIcons" ></i>
 
                     </div> 
-                
+              
             </div>
 
         </div>
     </div>
+ 
     </div>
 
+    <!--About me Ends-->
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
