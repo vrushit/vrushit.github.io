@@ -116,7 +116,7 @@ body{
     margin-right: 50px;
   }
 
-  a {
+ .nav-link a {
     position: relative;
     display: inline-block;
     padding: 10px 15px;
@@ -129,19 +129,19 @@ body{
   }
 
   
-a:hover{
+.nav-link a:hover{
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     transition-delay: 1s;
 } 
 
-a span{
+.nav-link a span{
     position: absolute;
     display: block;
 }
 
-a span:nth-child(1)
+.nav-link a span:nth-child(1)
 {
     top:0;
     left:-100%;
@@ -149,13 +149,13 @@ a span:nth-child(1)
     height:2px;
     background: linear-gradient(90deg, transparent, #2196f3);
 }
-a:hover span:nth-child(1)
+.nav-link a:hover span:nth-child(1)
 {
     left:100%;
     transition:1s;
 }
 
-a span:nth-child(3)
+.nav-link a span:nth-child(3)
 {
     bottom:0;
     right:-100%;
@@ -163,14 +163,14 @@ a span:nth-child(3)
     height:2px;
     background: linear-gradient(270deg, transparent, #2196f3);
 }
-a:hover span:nth-child(3)
+.nav-link a:hover span:nth-child(3)
 {
     right:100%;
     transition:1s;
     transition-delay: 0.5s;
 }
 
-a span:nth-child(2)
+.nav-link a span:nth-child(2)
 {
     top:-100%;
     right:0;
@@ -178,13 +178,13 @@ a span:nth-child(2)
     height:100%;
     background: linear-gradient(180deg, transparent, #2196f3);
 }
-a:hover span:nth-child(2)
+.nav-link a:hover span:nth-child(2)
 {
     top:100%;
     transition:1s;
     transition-delay: 0.25s;
 }
-a span:nth-child(4)
+.nav-link a span:nth-child(4)
 {
     bottom:-100%;
     left:0;
@@ -192,7 +192,7 @@ a span:nth-child(4)
     height:100%;
     background: linear-gradient(360deg, transparent, #2196f3);
 }
-a:hover span:nth-child(4)
+.nav-link a:hover span:nth-child(4)
 {
     bottom:100%;
     transition:1s;
@@ -223,7 +223,7 @@ a:hover span:nth-child(4)
 
   @media only screen and (max-width:500px)
   {
-      a{
+      .nav-link a{
         padding: 7px;
       }
   }
@@ -276,6 +276,27 @@ a:hover span:nth-child(4)
     color:#fff
 }
 
+.fa-linkedin:hover{
+  
+     color:#167DB0;       
+} 
+
+.fa-github:hover{
+    color:#37EF50;
+   
+}
+
+.fa-instagram:hover{
+    color: #C13584;
+    
+}
+
+.fa-envelope:hover{
+    color:#B23121;
+}
+.fa-stack-overflow:hover{
+    color:orange;
+}
 
 
 @media only screen and (max-width: 768px)
