@@ -348,7 +348,10 @@ body{
     width:500px;
     height:500px;
     padding:20px;
+    border-radius: 50%;
 }
+
+
 
 .aboutmeContent{
     font-family: 'Roboto Mono', monospace;
