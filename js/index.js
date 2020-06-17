@@ -8,9 +8,11 @@ window.addEventListener('load', () => {
 
     const preload = document.querySelector('.preload');
     preload.classList.add('preload-finish');
-    window.location = "landingPage.html";
+    
    
 });
+
+window.location = "landingPage.html";
 
 // window.addEventListener('DOMContentLoaded', function() {
 //     // your code here
