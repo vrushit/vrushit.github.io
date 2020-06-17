@@ -4,14 +4,13 @@
 
 //Preloader
 
-// window.addEventListener('load', () => {
+window.addEventListener('load', () => {
 
-//     // const preload = document.querySelector('.preload');
-//     // preload.classList.add('preload-finish');
-
-//     const display = document.querySelector(".display");
-//     display.style.display= 'inline';
-// });
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finish');
+    window.location = "landingPage.html";
+   
+});
 
 // window.addEventListener('DOMContentLoaded', function() {
 //     // your code here
@@ -25,12 +24,13 @@
 //  const display = document.querySelector(".display");
 //  display.style.display= 'inline';
 
-$(window).ready(function(){
+// $(window).ready(function(){
 
-    const preload = document.querySelector('.preload');
-    preload.classList.add('preload-finish');
+//     const preload = document.querySelector('.preload');
+//     preload.classList.add('preload-finish');
 
-     const display = document.querySelector(".display");
- display.style.display= 'inline';
+//      const display = document.querySelector(".display");
+//  display.style.display= 'inline';
 
-});
+// });
+
