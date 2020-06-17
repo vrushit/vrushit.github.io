@@ -12,92 +12,9 @@ body{
     /* overflow: hidden; */
 }
 
-/*---------Preload-------------*/
-
-.preload{
-    /* background: linear-gradient(-45deg, #0C0E37, #031321 , #0f0f0f , #031321 ); */
-    background: #031321;
-    position:fixed;
-    top:0;
-    height: 100%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
+.display{
+    display: none;
 }
-
-.cloud1, .cloud2, .cloud3{
-    height:100px;
-    position: absolute;
-    right:0%;
-    z-index: -1;
-}   
-
-.cloud1{
-    top:25%;
-    transform: translate(100%, -25%);
-    animation: clouds 3s ease infinite;
-}
-
-.cloud2{
-    top:50%;
-    transform: translate(100%, -50%);
-    animation: clouds 3s ease infinite 2s;
-
-}
-
-.cloud3{
-    top:75%;
-    transform: translate(100%, -75%);
-    animation: clouds 3s ease infinite 1.5s;
-
-}
-
-.airplane{
-    height: 200px;
-    animation: airplane 1s ease infinite alternate;
-}
-
-.preload h3{
-    position: absolute;
-    top:75%;
-    left:60%;
-    transform: translate(-75%);
-    color:white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-    
-}
-
-.preload-finish{
-    opacity: 0;
-    pointer-events: none;
-}
-
-@keyframes airplane{
-    from{
-        transform: translateY(0px);
-    }
-    to{
-        transform: translateY(50px);
-    }
-}
-
-
-
-@keyframes clouds{
-    from{
-        right:0%;
-    }
-    to{
-        right: 130%;
-    }
-}
-
-/*--------Pre Load done--------*/
-
-
 .nameWebsite{
     color:#fff;
     width: 100%;
