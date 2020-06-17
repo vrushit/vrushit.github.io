@@ -9,10 +9,16 @@ window.addEventListener('load', () => {
     const preload = document.querySelector('.preload');
     preload.classList.add('preload-finish');
     
+    const display = document.querySelector(".display");
+    display.style.display= 'inline';
+
+    
    
 });
 
-window.location = "landingPage.html";
+
+
+
 
 // window.addEventListener('DOMContentLoaded', function() {
 //     // your code here
@@ -23,8 +29,7 @@ window.location = "landingPage.html";
 
 //  });
 
-//  const display = document.querySelector(".display");
-//  display.style.display= 'inline';
+
 
 // $(window).ready(function(){
 
