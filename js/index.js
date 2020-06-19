@@ -9,7 +9,7 @@
 // });
 
 
-$(document).ready(function() {
+$(window).ready(function() {
 
     const preload = document.querySelector('.preload');
     preload.classList.add('preload-finish');
