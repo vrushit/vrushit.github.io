@@ -339,7 +339,7 @@ body{
 
   .my-image{
     float: left;
-    animation: fadeInLeft 2s normal;
+    /* animation: fadeInLeft 2s normal; */
 
   }
 

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vrushit/vrushit.github.io#readme",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "wowjs": "^1.1.3"
   }
 }
