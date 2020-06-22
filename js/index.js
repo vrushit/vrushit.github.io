@@ -1,7 +1,7 @@
-window.addEventListener('load', () => {
+// window.addEventListener('load', () => {
 
     
-});
+// });
 
 
 $(window).ready(function() {
@@ -13,3 +13,14 @@ $(window).ready(function() {
     display.style.display = "inline";
     display.style.opacity = "1";
 });
+
+
+
+document.getElementById('buttonC').addEventListener('click', () => {
+
+    var text = document.getElementById('buttonC');
+    text.innerHTML = "Thank You for Contacting";
+});
+
+//Firebase Code
+

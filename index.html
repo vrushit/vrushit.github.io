@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
         </style>
@@ -78,12 +78,12 @@
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#home">
+                        <a href="#contactme">
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span> 
-                            .hobbies
+                            .contactme
                         </a>
                     </li>
                 </ul>
@@ -207,21 +207,64 @@
         </div>
     </div>
     
-
     <!--------------Project Ends-------------------->
-</div>
+
+    <!--------------Contact me starts---------------->
+
+    <div class="contactme" >
+        <div class="container-fluid padding">
+            <div class="row welcome" id="contactme">
+                <div class="col-12">
+                    <h3 class="display-4 line anim-typewriter">
+                    .contactme
+                    </h1>
+                </div>
+            </div>
     
+        </div>
+        <div class="container-fluid padding">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contactForm">
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="text" placeholder="Name/Organization Name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="email" placeholder="Email" class="form-control" id="email" required>
+
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="number" placeholder="Mobile Number" class="form-control" id="phoneNo" required>
+
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <textarea class="form-control" rows="5" id="Description" placeholder="Description"></textarea>
+
+                        </div>
+                        <div class=" d-flex justify-content-center"">
+                            <button type="button" class="btn btn-light" id="buttonC">Submit</button>
+                            <!-- <input type="button" class="btn btn-light form-control" value ="Submit" id="buttonC" onclick="toggleText()"> -->
+                        </div>
+                       
+                     </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    <!--------------Contact me Ends-------------------->
+  
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-analytics.js"></script>
+<script src="js/firebase.js"></script>
     <script src="wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-    
-
-
-    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script> -->
     <script src="js/index.js"></script>
 </body>
 </html>
