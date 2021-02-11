@@ -61,6 +61,19 @@ body {
   );
   border-radius: 100%;
   transform: translateX(50%) rotateZ(45deg);
+  animation: shinning 3s ease-in-out infinite;
+}
+
+@keyframes shinning {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 0px;
+  }
 }
 
 .star::after {
