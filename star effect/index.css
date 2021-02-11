@@ -23,3 +23,25 @@ body {
   border-radius: 999px;
   filter: drop-shadow(0 0 6px #699bff);
 }
+
+.star::before,
+.star::after {
+  content: " ";
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 0;
+  height: 4px;
+  width: 30px;
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 255, 0),
+    #5f91ff,
+    rgba(0, 0, 255, 0)
+  );
+  border-radius: 100%;
+  transform: translateX(50%) rotateZ(45deg);
+}
+
+.star::after {
+  transform: translateX(50%) rotateZ(-45deg);
+}
