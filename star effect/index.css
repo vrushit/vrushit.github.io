@@ -17,7 +17,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  height: 4px;
+  height: 2px;
   background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
   border-radius: 999px;
   filter: drop-shadow(0 0 6px #699bff);
@@ -51,7 +51,7 @@ body {
   position: absolute;
   top: calc(50% - 2px);
   right: 0;
-  height: 4px;
+  height: 2px;
   width: 30px;
   background: linear-gradient(
     -45deg,
@@ -94,43 +94,43 @@ body {
 .star:nth-child(2) {
   top: calc(50% - 50px);
   left: calc(50% - 200px);
-  animation-delay: 1s;
+  animation-delay: 1.2s;
 }
 
 .star:nth-child(2)::before,
 .star:nth-child(2)::after {
-  animation-delay: 1s;
+  animation-delay: 1.2s;
 }
 
 .star:nth-child(3) {
   top: calc(50% - 0px);
   left: calc(50% - 150px);
-  animation-delay: 1s;
+  animation-delay: 1.4s;
 }
 
 .star:nth-child(3)::before,
 .star:nth-child(3)::after {
-  animation-delay: 1s;
+  animation-delay: 1.4s;
 }
 
 .star:nth-child(4) {
   top: calc(50% - -50px);
   left: calc(50% - 100px);
-  animation-delay: 1s;
+  animation-delay: 1.6s;
 }
 
 .star:nth-child(4)::before,
 .star:nth-child(4)::after {
-  animation-delay: 1s;
+  animation-delay: 1.6s;
 }
 
 .star:nth-child(5) {
   top: calc(50% - -100px);
   left: calc(50% - 50px);
-  animation-delay: 1s;
+  animation-delay: 1.8s;
 }
 
 .star:nth-child(5)::before,
 .star:nth-child(5)::after {
-  animation-delay: 1s;
+  animation-delay: 1.8s;
 }
