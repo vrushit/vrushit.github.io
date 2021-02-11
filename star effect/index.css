@@ -18,10 +18,31 @@ body {
   left: 50%;
   top: 50%;
   height: 4px;
-  width: 100px;
   background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
   border-radius: 999px;
   filter: drop-shadow(0 0 6px #699bff);
+  animation: tail 3s ease-in-out infinite, falling 3s ease-in-out infinite;
+}
+
+@keyframes tail {
+  0% {
+    width: 0px;
+  }
+  40% {
+    width: 100px;
+  }
+  100% {
+    width: 0px;
+  }
+}
+
+@keyframes falling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
 }
 
 .star::before,
@@ -59,7 +80,7 @@ body {
 
 .star:nth-child(2) {
   top: calc(50% - 50px);
-  left: calc(50% - 250px);
+  left: calc(50% - 200px);
   animation-delay: 1s;
 }
 
@@ -70,7 +91,7 @@ body {
 
 .star:nth-child(3) {
   top: calc(50% - 0px);
-  left: calc(50% - 250px);
+  left: calc(50% - 150px);
   animation-delay: 1s;
 }
 
@@ -81,7 +102,7 @@ body {
 
 .star:nth-child(4) {
   top: calc(50% - -50px);
-  left: calc(50% - 250px);
+  left: calc(50% - 100px);
   animation-delay: 1s;
 }
 
@@ -92,7 +113,7 @@ body {
 
 .star:nth-child(5) {
   top: calc(50% - -100px);
-  left: calc(50% - 250px);
+  left: calc(50% - 50px);
   animation-delay: 1s;
 }
 
