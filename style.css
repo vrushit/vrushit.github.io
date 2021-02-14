@@ -598,8 +598,12 @@ body {
   height: auto;
 }
 
-.width {
-  width: 90%;
+.projects-display {
+  width: 70%;
+}
+
+.card img {
+  height: 150px;
 }
 
 .card {
