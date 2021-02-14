@@ -684,10 +684,12 @@ textarea.form-control {
 /*-------------------Footer-----------------------------*/
 
 .footerEnd {
+  padding: 15px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
 }
 
 /*================Footer Ends=========================*/
