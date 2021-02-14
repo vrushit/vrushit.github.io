@@ -389,6 +389,9 @@ body {
 .fa-stack-overflow:hover {
   color: orange;
 }
+.fa-medium:hover {
+  color: black;
+}
 
 @media only screen and (max-width: 768px) {
   .welcome {
