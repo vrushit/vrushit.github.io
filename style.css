@@ -666,19 +666,6 @@ textarea.form-control {
   font-family: "Roboto Mono", monospace;
 }
 
-@media only screen and (max-width: 500px) {
-  input.form-control {
-    width: 300px;
-    height: 40px;
-  }
-  textarea.form-control {
-    width: 300px;
-  }
-  #buttonC {
-    width: 300px;
-  }
-}
-
 /*-------------------Contact me Ends--------------------*/
 
 /*-------------------Footer-----------------------------*/
@@ -693,3 +680,52 @@ textarea.form-control {
 }
 
 /*================Footer Ends=========================*/
+
+.or {
+  margin: 5px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: wheat;
+  font-size: 13px;
+}
+
+.email-address {
+  width: 400px;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.email-text {
+  float: left;
+}
+
+.email-icon {
+  font-size: 15px;
+  font-weight: bolder;
+  float: right;
+  color: #0c0e37;
+}
+
+@media only screen and (max-width: 500px) {
+  input.form-control {
+    width: 300px;
+    height: 40px;
+  }
+  textarea.form-control {
+    width: 300px;
+  }
+  #buttonC {
+    width: 300px;
+  }
+
+  .email-address {
+    width: 300px;
+  }
+
+  .email-icon {
+    font-size: 15px;
+  }
+}
