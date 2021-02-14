@@ -24,8 +24,3 @@ document.getElementById('buttonC').addEventListener('click', () => {
 
 //Firebase Code
 
-document.querySelector(".email-address").addEventListener("click", () =>{
-
-    document.execCommand(cope)
-
-});
