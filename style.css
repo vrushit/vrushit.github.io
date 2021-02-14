@@ -598,12 +598,20 @@ body {
   height: auto;
 }
 
+.card {
+  width: 20rem;
+  height: 400px;
+  background-color: #2a3550;
+  color: white;
+}
+
 .projects-display {
   width: 70%;
 }
 
 .card img {
-  height: 150px;
+  padding: 5px;
+  height: 160px;
 }
 
 .card {
