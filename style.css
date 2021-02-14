@@ -598,7 +598,15 @@ body {
   height: auto;
 }
 
-/* .container {
+.width {
+  width: 90%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.container {
   padding: 10px;
 }
 
@@ -634,7 +642,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   font-family: "Roboto Mono", monospace;
-} */
+}
 
 /*-------------------Projects Ends-----------------*/
 
